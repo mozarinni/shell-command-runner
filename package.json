@@ -1,0 +1,26 @@
+{
+  "name": "kaholo",
+  "version": "1.0.0",
+  "description": "shell command runner",
+  "main": "srv/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozarinni/shell-command-runner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozarinni/shell-command-runner/issues"
+  },
+  "homepage": "https://github.com/mozarinni/shell-command-runner#readme",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}

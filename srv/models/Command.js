@@ -7,6 +7,10 @@ const CommandSchema = new mongoose.Schema({
   output: {
     type: String,
   },
+  date: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
 module.exports = Command =
