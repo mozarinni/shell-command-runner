@@ -2,4 +2,5 @@ FROM node:12-alpine
 WORKDIR /kaholo
 COPY . .
 RUN npm install
-CMD ["node", "/kaholo/srv/server.js"]
+EXPOSE 3000
+ENTRYPOINT ["node", "/kaholo/srv/server.js"]
